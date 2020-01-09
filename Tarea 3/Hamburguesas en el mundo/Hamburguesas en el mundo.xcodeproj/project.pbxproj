@@ -14,6 +14,7 @@
 		DDE6C96423C7AE6300EF007E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE6C96223C7AE6300EF007E /* LaunchScreen.storyboard */; };
 		DDE6C96F23C7AE6300EF007E /* Hamburguesas_en_el_mundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6C96E23C7AE6300EF007E /* Hamburguesas_en_el_mundoTests.swift */; };
 		DDE6C97A23C7AE6300EF007E /* Hamburguesas_en_el_mundoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6C97923C7AE6300EF007E /* Hamburguesas_en_el_mundoUITests.swift */; };
+		DDE6C98823C7B05100EF007E /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6C98723C7B05100EF007E /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DDE6C97523C7AE6300EF007E /* Hamburguesas en el mundoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hamburguesas en el mundoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE6C97923C7AE6300EF007E /* Hamburguesas_en_el_mundoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesas_en_el_mundoUITests.swift; sourceTree = "<group>"; };
 		DDE6C97B23C7AE6300EF007E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE6C98723C7B05100EF007E /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DDE6C96023C7AE6300EF007E /* Assets.xcassets */,
 				DDE6C96223C7AE6300EF007E /* LaunchScreen.storyboard */,
 				DDE6C96523C7AE6300EF007E /* Info.plist */,
+				DDE6C98723C7B05100EF007E /* Datos.swift */,
 			);
 			path = "Hamburguesas en el mundo";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				DDE6C95C23C7AE5E00EF007E /* ViewController.swift in Sources */,
 				DDE6C95A23C7AE5E00EF007E /* AppDelegate.swift in Sources */,
+				DDE6C98823C7B05100EF007E /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,10 +442,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mx.adrian.Hamburguesas-en-el-mundo";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.adrian.hamburguesas-en-el-mundo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,10 +459,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mx.adrian.Hamburguesas-en-el-mundo";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.adrian.hamburguesas-en-el-mundo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
