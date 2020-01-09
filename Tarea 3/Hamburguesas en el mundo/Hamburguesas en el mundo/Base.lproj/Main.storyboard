@@ -32,7 +32,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1iJ-qE-SAs">
                                 <rect key="frame" x="99" y="389" width="177" height="30"/>
-                                <state key="normal" title="Quiero una hamburguesa!"/>
+                                <state key="normal" title="Quiero una hamburguesa!">
+                                    <color key="titleShadowColor" cyan="1" magenta="0.65000000000000002" yellow="0.0" black="0.29999999999999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="mostrarHamburguesas" destination="BYZ-38-t0r" eventType="touchUpInside" id="AS9-5R-jQT"/>
                                 </connections>

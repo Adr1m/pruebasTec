@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
     @IBAction func mostrarHamburguesas() {
         view.backgroundColor = color.obtenColor()
         nombrePais.text = "🌐 " + pais.obtenPais()

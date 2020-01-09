@@ -16,7 +16,7 @@ class ColeccionDePaises {
                   "Estados Unidos","Portugal","Chile","Korea","Japon",
                   "Australia","India","Inglaterra","Italia","Noruega"]
     
-    func obtenPais( )->String{
+    func obtenPais()->String{
         let posicion = Int(arc4random()) % paises.count
         return paises[posicion]
     }
@@ -30,7 +30,7 @@ class ColeccionDeHamburguesa {
                         "Jalapeños Burger","Guacamole Burger","Triple Cheese","BBG Burger",
                         "Mamut Burger","Vegetariana","Tradicional","New York style"]
     
-    func obtenHamburguesa( )->String{
+    func obtenHamburguesa()->String{
         let posicion = Int(arc4random()) % hamburguesas.count
         return hamburguesas[posicion]
     }
@@ -47,7 +47,7 @@ class ColeccionDeColores {
                     UIColor(red:130/255.0, green: 130/255.0, blue: 130/255.0, alpha: 1),
                     UIColor(red:3/255.0, green: 50/255.0, blue: 90/255.0, alpha: 1)]
     
-    func obtenColor( )->UIColor{
+    func obtenColor()->UIColor{
         let posicion = Int(arc4random()) % colores.count
         return colores[posicion]
     }
